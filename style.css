@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+body {
+  font-family: 'Roboto', 'Montserrat', sans-serif;
+}
+
 header{
   color: white;
   background-color: rgb(39, 153, 137);
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
 
 }
 
@@ -39,16 +47,39 @@ a{
 
 p{
   display: flex;
-
 }
 
 button{
   border-radius: 40px;
   height: 40px;
   width: 40px;
+  cursor: pointer;
 }
 
 .eliminar{
   border:  0px;
   background-color:rgb(255, 200, 69) ;
+  cursor: pointer;
+}
+
+input[type="text"]{
+  font-weight: bold
+}
+
+input[type="checkbox"]{
+  cursor: pointer;
+}
+
+input[type="submit"]{
+  cursor: pointer;
+  background-color: aqua;
+  color: white;
+}
+
+#price::after{
+  content: "€";
+}
+
+label{
+  cursor: pointer;
 }
