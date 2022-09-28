@@ -1,11 +1,42 @@
 header{
   background-color: rgb(39, 153, 137);
+  display: flex;
 }
 
 section{
   background-color: rgb(95, 167, 137);
+  display:flex ;
+  justify-content: space-between;
 }
 
 main{
   background-color: rgb(255, 200, 69);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+h1{
+  display: flex;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+}
+
+p{
+  display: flex;
+
+}
+
+button{
+  border-radius: 40px;
+  height: 40px;
+  width: 40px;
+}
+
+.eliminar{
+  border:  0px;
+  background-color:rgb(255, 200, 69) ;
 }
