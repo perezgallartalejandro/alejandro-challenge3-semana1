@@ -4,28 +4,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/png">
   <title>Formulario</title>
   <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   <header>
     <h1>Lista de la compra</h1>
-    <button type="button">Principal</button>
-    <button type="button">Lista</button>
-    <button type="button">Acerca de</button>
+    <nav> 
+      <a href="index.html">Principal</a>
+      <a href="">Lista</a>
+      <a href="">Acerca de</a>
+    </nav>
   </header>
   <section>
-    <button type="button">+</button>
+    <button type="button">-</button>
     <h2>2/4 Comprados</h2>
   </section>
   <main>
     <h3>Añadir articulo</h3>
     <form>
+      <p>
     <label for="name">Nombre</label>
     <input type="text" id="name">
+    </p>
+    <p>
     <label for="price">Precio</label>
     <input type="text" id="price">
     <h4>€</h4>
+    </p>
     <input type="submit" value="Añadir">
   </form>
   </main>
