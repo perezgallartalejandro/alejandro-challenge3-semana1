@@ -1,12 +1,17 @@
 header{
+  color: white;
   background-color: rgb(39, 153, 137);
   display: flex;
+  justify-content: space-between;
+
 }
 
 section{
+  color: white;
   background-color: rgb(95, 167, 137);
   display:flex ;
   justify-content: space-between;
+  align-items: center;
 }
 
 main{
@@ -22,7 +27,14 @@ h1{
 
 nav{
   display: flex;
-  align-items: center;
+  padding: 15px;
+  flex-direction: row;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
 }
 
 p{
@@ -39,4 +51,8 @@ button{
 .eliminar{
   border:  0px;
   background-color:rgb(255, 200, 69) ;
+}
+
+[type="submit" {
+  background-color: blue;
 }
