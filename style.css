@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
-body {
+
+body{
+  margin:0;
+}
+
+html {
   font-family: 'Roboto', 'Montserrat', sans-serif;
+  background-color: #ffc845;
 }
 
 header{
@@ -72,14 +78,17 @@ input[type="checkbox"]{
 
 input[type="submit"]{
   cursor: pointer;
-  background-color: aqua;
+  background-color:  rgb(95, 167, 137);
   color: white;
+  margin: 20px;
+  padding: 10px;
 }
 
-#price::after{
+input[type="text"] #price::after{
   content: "€";
 }
 
 label{
+  font-size: bold;
   cursor: pointer;
 }
